@@ -4,9 +4,9 @@ Contains all paths, parameters, and constants.
 """
 
 # Output File Paths
-MODEL_FILE_PATH = 'saved2/model.pt'
-THRESHOLD_FILE_PATH = 'saved2/thresholds.npy'
-PRE_PROCESSED_FILE_PATH = 'saved2/track-a-processed.csv'  # This is just for reference
+MODEL_FILE_PATH = 'saved/model.pt'
+THRESHOLD_FILE_PATH = 'saved/thresholds.npy'
+PRE_PROCESSED_FILE_PATH = 'saved/track-a-processed.csv'  # This is just for reference
 
 # File Paths
 TRAIN_FILE_PATH = 'data/track-a.csv'  # now expects track-a.csv in project root
