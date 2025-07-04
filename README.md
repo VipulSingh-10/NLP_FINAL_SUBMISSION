@@ -4,6 +4,13 @@ This project performs **multi-label emotion classification** on English text usi
 
 ---
 
+## Access the Project
+
+You can access the full project, including code, datasets, and trained model files, via the following link:  
+[Google Drive Link](https://drive.google.com/drive/folders/1kRrhjRCn-eiq4BK_xXL8RBnQQA4_Y8Mg?usp=sharing)
+
+---
+
 ## Project Structure
 
 ```
@@ -130,7 +137,4 @@ Returns a NumPy array with binary predictions for each emotion.
 - Pandas 1.5+
 - NumPy 1.24+
 
-## Access the Project
 
-You can access the full project, including code, datasets, and trained model files, via the following link:  
-[Google Drive Link](https://your-link-here)
