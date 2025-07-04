@@ -132,7 +132,7 @@ Returns a NumPy array with binary predictions for each emotion.
 - Python 3.7+
 - PyTorch 2.0+
 - Transformers 4.30+
-- Scikit-learn 1.3+
+- Scikit-learn 1.7+
 - NLTK 3.8+
 - Pandas 1.5+
 - NumPy 1.24+
