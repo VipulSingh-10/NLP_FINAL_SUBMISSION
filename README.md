@@ -5,10 +5,30 @@ This project implements a comprehensive emotion detection system using various m
 ## Project Structure
 
 ```
-emotion_detection/
-├── main.py              # Main script with predict function for submission
-├── requirements.txt     # Python dependencies
-└── README.md           # This file
+Final_submission/
+├── config.py               # All paths, labels, constants, and model parameters
+├── main.py                 # Predict function using trained model
+├── train.py                # Preprocesses, trains, and saves the model
+├── evaluate.py             # Evaluates the model and prints classification metrics
+├── requirements.txt        # Python dependencies
+│
+├── data/
+│   ├── track-a.csv
+│   ├── eng.csv
+│   └── nrc_lexicon.txt
+│
+├── objects/
+│   ├── dataset.py
+│   └── distilbert.py
+│
+├── preprocess/
+│   ├── data_augmentation.py
+│   ├── data_balancing.py
+│   └── data_clearing.py
+│
+└── utils/
+    ├── lexicons.py
+    └── nltk_resources.py
 ```
 
 ## Features
